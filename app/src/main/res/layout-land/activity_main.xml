@@ -16,204 +16,135 @@
 
         <TextView
             android:id="@+id/input_text"
+            style="@style/InputText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnSpan="4"
-            android:layout_gravity="fill_horizontal"
-            android:gravity="end"
-            android:paddingStart="15dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="15dp"
-            android:paddingBottom="5dp"
-            android:text="@string/zero"
-            android:textColor="@color/white"
-            android:textSize="50sp"
-            android:textStyle="bold" />
+            android:text="@string/zero" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_seven"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/seven"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/seven" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_eight"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/eight"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/eight" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_nine"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/nine"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/nine" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_divide"
+            style="@style/ActionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/dark_blue"
-            android:text="@string/divide"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:text="@string/divide" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_four"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/four"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/four" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_five"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/five"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/five" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_six"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/six"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/six" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_multiply"
+            style="@style/ActionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/dark_blue"
-            android:text="@string/multiply"
-            android:textSize="20sp" />
+            android:text="@string/multiply" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_one"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/one"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/one" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_two"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/two"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/two" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_three"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/three"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/three" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_minus"
+            style="@style/ActionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/dark_blue"
-            android:text="@string/minus"
-            android:textSize="20sp" />
+            android:text="@string/minus" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_zero"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/zero"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/zero" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_dot"
+            style="@style/NumBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/grey"
-            android:text="@string/dot"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:text="@string/dot" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_plus"
+            style="@style/ActionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/dark_blue"
-            android:text="@string/plus"
-            android:textSize="20sp" />
+            android:text="@string/plus" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_reset"
+            style="@style/ResetBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/orange"
             android:text="@string/reset" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_equals"
+            style="@style/ActionBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:backgroundTint="@color/dark_blue"
             android:text="@string/equals" />
 
     </GridLayout>
